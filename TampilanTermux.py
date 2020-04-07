@@ -43,4 +43,4 @@ pkg install neofetch -y
 clear
 pkg install nano -y
 cd ../usr/etc
-echo "masukan perintah...bash.bashrc"
+echo "masukan perintah... nano bash.bashrc "
