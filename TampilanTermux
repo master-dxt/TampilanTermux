@@ -1,0 +1,19 @@
+#!/bin/sh
+#color
+
+pkg update -y
+pkg upgrade -y
+apt-get install ruby
+
+pkg install ruby
+pkg install cl
+pkg install toilet
+pkg install cowsay
+pkg install figlet
+pkg install lolcat
+pkg install neofetch
+pkg install nano
+
+cd ../usr/etc
+nano bash.bashrc
+
